@@ -52,6 +52,23 @@
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.19.tgz#648f79c4e09279212ac90d871646ae12d80cdfce"
   integrity sha512-YzA78jBDXMYiINdPdJJwGgPNT3YqBNNGhsthsDoWHL9p24tEJn9ViQf/ZqTbwSpX/RrkPupLfuuTH2sf73JBAw==
 
+"@prisma/client@^5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-5.3.1.tgz#fc7fc2d91e814cc4fe18a4bc5e78bf851c26985e"
+  integrity sha512-ArOKjHwdFZIe1cGU56oIfy7wRuTn0FfZjGuU/AjgEBOQh+4rDkB6nF+AGHP8KaVpkBIiHGPQh3IpwQ3xDMdO0Q==
+  dependencies:
+    "@prisma/engines-version" "5.3.1-2.61e140623197a131c2a6189271ffee05a7aa9a59"
+
+"@prisma/engines-version@5.3.1-2.61e140623197a131c2a6189271ffee05a7aa9a59":
+  version "5.3.1-2.61e140623197a131c2a6189271ffee05a7aa9a59"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-5.3.1-2.61e140623197a131c2a6189271ffee05a7aa9a59.tgz#7eb6f5c6b7628b8b39df55c903f411528a6f761c"
+  integrity sha512-y5qbUi3ql2Xg7XraqcXEdMHh0MocBfnBzDn5GbV1xk23S3Mq8MGs+VjacTNiBh3dtEdUERCrUUG7Z3QaJ+h79w==
+
+"@prisma/engines@5.3.1":
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-5.3.1.tgz#53cc72a5ed176dc27d22305fe5569c64cc78b381"
+  integrity sha512-6QkILNyfeeN67BNEPEtkgh3Xo2tm6D7V+UhrkBbRHqKw9CTaz/vvTP/ROwYSP/3JT2MtIutZm/EnhxUiuOPVDA==
+
 "@swc/helpers@0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.1.tgz#e9031491aa3f26bfcc974a67f48bd456c8a5357a"
@@ -112,6 +129,11 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
+daemon@>=0.3.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/daemon/-/daemon-1.1.0.tgz#6c5102c81db0be856fc9008fc2c935b398864ae8"
+  integrity sha512-1vX9YVcP21gt12nSD3SQRC/uPU7fyA6M8qyClTBIFuiRWoylFn57PwXhjBAqRl085bZAje7sILhZU48qcS9SWw==
+
 glob-to-regexp@^0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz#c75297087c851b9a578bd217dd59a92f59fe546e"
@@ -121,6 +143,13 @@ graceful-fs@^4.1.2:
   version "4.2.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
+
+init@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/init/-/init-0.1.2.tgz#9882ac152707bccba7fe2207c8df8050875c1504"
+  integrity sha512-IvHUjULS2q+BXJdiu4FHkByh3+qSFmkOXQ2ItSfYTtkdUksQc0yNX6f1uDyokzRV71tjpFsFc3ckeYLJXunTGw==
+  dependencies:
+    daemon ">=0.3.0"
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
@@ -176,6 +205,13 @@ postcss@8.4.14:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+prisma@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-5.3.1.tgz#a0932c1c1a5ed4ff449d064b193d9c7e94e8bf77"
+  integrity sha512-Wp2msQIlMPHe+5k5Od6xnsI/WNG7UJGgFUJgqv/ygc7kOECZapcSz/iU4NIEzISs3H1W9sFLjAPbg/gOqqtB7A==
+  dependencies:
+    "@prisma/engines" "5.3.1"
 
 react-dom@18.2.0:
   version "18.2.0"

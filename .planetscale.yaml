@@ -1,0 +1,3 @@
+environments:
+  production:
+    planetscale_timeout: 60s
